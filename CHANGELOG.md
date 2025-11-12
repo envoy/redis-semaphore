@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+### 0.3.2 November 12, 2025
+- Fix deprecated `redis.exists` to use `redis.exists?`
+- Fix deprecated calling commands on `Redis` inside `Redis #multi`.
+- Fix deprecated positional timeout on `redis.blpop`
+
 ### 0.3.1 April 17, 2016
 - Fix `sem.lock(0)` bug (thanks eugenk!).
 
